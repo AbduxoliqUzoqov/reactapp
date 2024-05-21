@@ -15,7 +15,7 @@ const Login = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "https://reactchatapp-server.vercel.app/api/auth/login";
+			const url = "https://reactapp-api.vercel.app/api/auth/login";
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.data);
 			window.location = "/";
