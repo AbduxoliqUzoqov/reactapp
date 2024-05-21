@@ -15,7 +15,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "https://reactchatapp-server.vercel.app/register";
+			const url = "https://reactapp-api.vercel.app/register";
 			const { data: res } = await axios.post(url,data);
 			navigate("/login");
 		} catch (error) {
