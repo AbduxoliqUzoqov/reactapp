@@ -13,7 +13,7 @@ const useAuth = () =>{
    useEffect(()=>{
 	   const fetAp = async () =>{
 	      const { data } = await axios.post(
-          "https://reactchatapp-server.vercel.app/api/token/",
+          "https://reactapp-api.vercel.app/api/token/",
           { token }
         );
 	      setUser(data)
