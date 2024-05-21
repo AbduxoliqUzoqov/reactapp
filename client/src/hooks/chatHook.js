@@ -4,7 +4,7 @@ const chatMsg = () =>{
    useEffect(()=>{
 	   const fetAp = async () =>{
 	      const url = await fetch(
-          `https://reactchatapp-server.vercel.app/api/msg/get`
+          `https://reactapp-api.vercel.app/api/msg/get`
         );
 	      const data = await url.json()
 	      setMsg(data)
