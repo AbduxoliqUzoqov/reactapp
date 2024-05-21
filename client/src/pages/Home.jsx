@@ -15,8 +15,8 @@ const Home = () => {
          <div className="chat-data">
            <img src={imdg} alt=""/>
            <div className="flex2">
-               <h4>{authUser.fristName}</h4>
-               <span>3 ta foydalanuvchi</span>
+               <h4>Milligramm</h4>
+               <span>*** ta foydalanuvchi</span>
             </div>
          </div>
          <div onClick={()=>setIsModalt(true)} className="auth-user">
