@@ -18,7 +18,7 @@ const Messages = () => {
    
    const hendleSend = async()=>{
 		try {
-			const url = "https://reactchatapp-server.vercel.app/api/msg/send";
+			const url = "https://reactapp-api.vercel.app/api/msg/send";
 	    	const {data: res }= await axios.post(url,{token,sendtext:newmsg});
 	    	setMsg(res)
 	     textRef.current.value = "";
