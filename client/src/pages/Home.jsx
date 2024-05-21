@@ -1,4 +1,4 @@
-import imdg from "../assets/react.svg"
+import imdg from "../assets/1000106542.jpg"
 import React, {useState, useEffect } from 'react';
 import { useAuthContext } from "./../context/AuthContext.jsx";
 import Modal from "./../components/Modal.jsx";
